@@ -1,0 +1,9 @@
+[Install]
+WantedBy=default.target
+
+[Unit]
+Description=Bluetooth Proximity Python
+
+[Service]
+# Command to execute when the service is started
+ExecStart=~/.virtualenvs/blue/bin/python ~/Coding/python/btproxipy/tests/bluetooth_scanner.py
