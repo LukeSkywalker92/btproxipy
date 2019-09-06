@@ -10,8 +10,8 @@ from pathlib import Path
 import logging
 import logging.handlers
 
-CONFIG_PATH = os.path.join(Path.home(), '.config', 'btproximity', 'btproximity.ini')
-LOG_PATH = os.path.join(Path.home(), '.config', 'btproximity', 'log', 'btproximity.log')
+CONFIG_PATH = os.path.join(Path.home(), '.config', 'btproxipy', 'btproxipy.ini')
+LOG_PATH = os.path.join(Path.home(), '.config', 'btproxipy', 'log', 'btproxipy.log')
 
 
 config = configparser.ConfigParser()

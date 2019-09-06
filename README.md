@@ -20,7 +20,7 @@ systemctl enable bluetooth.service
 ## Installation
 
 ``` bash
-pip install btproxipy
+pip install btproxipy --user
 ```
 
 Edit `~/.config/btproxipy/btproxipy.ini` to your needs.

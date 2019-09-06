@@ -3,7 +3,8 @@ Description=Detects if a Bluetooth device is near by querying its RSSI value and
 
 [Service]
 # Command to execute when the service is started
-ExecStart=btproxipy
+#Environment="PATH=/home/luke/.local/bin"
+ExecStart=%h/.local/bin/btproxipy
 SyslogIdentifier=btproxipy
 StandardOutput=syslog
 StandardError=syslog
