@@ -1,5 +1,7 @@
 # btproxipy
 
+btproxipy detects if a Bluetooth device is near by querying its RSSI value and executes commands when the device leaves or comes back.
+
 ## Requirements
 
 This program needs `bluetooth` to be installed.
