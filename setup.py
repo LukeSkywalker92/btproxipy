@@ -23,7 +23,7 @@ if not os.path.exists(SERVICE_PATH):
     copyfile('btproxipy.service', SERVICE_PATH)
 
 setup(name='btproxipy',
-    version='0.9',
+    version='0.10',
     description="Detects if a Bluetooth device is near by querying its RSSI value and executes commands when the device leaves or comes back.",
     long_description=long_description,
     long_description_content_type="text/markdown",
